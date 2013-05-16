@@ -19,4 +19,4 @@ Install and use it
 Live Demo
 ---------
 
-* [Try the demo](http://llopez.github.io/mylist)
+* [Try the demo](http://llopez.github.io/my-list)
