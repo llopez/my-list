@@ -17,7 +17,7 @@ var itemsList = new ItemsList();
 
 var ItemView = Backbone.View.extend({
   tagName: 'li',
-  template: _.template("<span><%= title %> &nbsp; <button>Remove</button> </span> <input type='text' value='<%= title %>'>"),
+  template: _.template(jQuery('#item-template').html()),
   events: {
     'click button' : 'deleteItem',
     'dblclick' : 'toggleEdit',

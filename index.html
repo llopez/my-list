@@ -17,6 +17,16 @@
       <ul>
       </ul>
     </div>
+
+    <script type="text/html" id="item-template">
+      <span>
+        <%= title %> 
+        &nbsp; 
+        <button>Remove</button>
+      </span> 
+      <input type='text' value="<%= title %>">
+    </script>
+
     <script src="jquery.js"></script>
     <script src="underscore.js"></script>
     <script src="backbone.js"></script>
